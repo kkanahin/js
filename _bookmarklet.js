@@ -77,6 +77,6 @@ high_layer_div.style.opacity="0.5";
 high_layer_div.style.zIndex=1000;
 document.body.appendChild(high_layer_div);
 mark_image();
-document.onscroll=scroll_page();
+high_layer_div.onscroll=scroll_page();
 
 })()
