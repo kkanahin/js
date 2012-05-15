@@ -68,7 +68,7 @@ mark_image();
 var high_layer_div=document.createElement('div');
 high_layer_div.id="div_high_layer";
 high_layer_div.style.height=getDocumentHeight().toString().concat('px');
-high_layer_div.style.width=getDocumentWidth().toString().concat('px');
+high_layer_div.style.width='100%';
 high_layer_div.style.position="absolute";
 high_layer_div.style.left="0px";
 high_layer_div.style.top="0px";
